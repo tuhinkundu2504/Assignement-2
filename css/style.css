@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --font: "Quicksand", sans-serif;
+}
+
+/* Header Section Start */
+.container {
+  margin: 1rem 2rem;
+  position: relative;
+}
+.navsection {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+.logo {
+  width: 30%;
+  display: flex;
+}
+.nav-item {
+  width: 63%;
+}
+
+.icon-item {
+  width: 5%;
+  text-align: right;
+}
+.logoimg {
+  width: 15%;
+}
+.company-name a {
+  width: 85%;
+  padding-top: 10px;
+  font-size: 1rem;
+  color: blue;
+  font-family: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+}
+.logo-img {
+  height: 50px;
+  width: 55px;
+  border-radius: 50%;
+}
+.nav-item ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 30px;
+  float: right;
+  overflow: hidden;
+}
+.nav-item li {
+  float: left;
+}
+li a {
+  display: block;
+  margin-top: 10px;
+  padding-left: 25px;
+  text-align: center !important;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #7e76dd;
+  font-family: var(--font);
+  font-weight: bold;
+}
+
+.icon-sline {
+  width: 2%;
+  border-right: 3px solid rgba(196, 196, 196, 1);
+  height: 35px;
+}
+.icon-bell {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 1.3rem;
+  color: #7e76dd;
+  cursor: pointer;
+}
+.icon-bell:hover {
+  color: rgba(5, 0, 240, 0.75);
+}
+/* Header Section End */
+/* Add employee section */
+.ae-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(126, 118, 221, 0.75);
+  color: #fff;
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: 0px;
+}
+.ae-button:hover {
+  background-color: rgba(5, 0, 240, 0.75);
+}
+/* Add employee section end */
+/* Employee List section */
+.fluid {
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #d3d3d3;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 2rem;
+  width: 100%;
+}
+th,
+tr {
+  text-align: center;
+  padding: 5px 10px;
+}
+td {
+  text-align: center;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.4);
+  border-top: 1px solid rgba(220, 220, 220, 0.4);
+  padding: 35px 10px;
+  font-family: var(--font);
+  color: rgba(128, 128, 128, 0.75);
+}
+.tr-data {
+  padding: 15px 10px;
+}
+th {
+  color: #808080;
+  font-family: var(--font);
+}
+.activename {
+  color: #000;
+  font-weight: bold;
+}
+.edit-delete-icon {
+  color: rgba(196, 196, 196, 0.85);
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.edit-delete-icon:hover {
+  color: #808080;
+}
+/* Employee List section end */
+/* Employee View Section start */
+.profile-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: auto;
+  background-image: url(../img/propic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.employee-name {
+  text-align: center;
+  font-family: var(--font);
+  margin-top: 1rem;
+  color: #000;
+}
+.quick-ac {
+  display: flex;
+  margin-top: 1rem;
+}
+.line {
+  width: 45%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+}
+.icon-space {
+  width: 10%;
+  margin: auto;
+  text-align: center;
+  color: #000;
+}
+.emp-icon {
+  font-size: 1.3rem;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.cart-view {
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+}
+.cart-left {
+  width: 30%;
+}
+.cart-right {
+  width: 30%;
+}
+.crt-dl {
+  display: flex;
+}
+.profile-logo {
+  width: 20%;
+  text-align: center;
+  margin: auto !important;
+  align-items: center;
+}
+.profile-dtl {
+  width: 80%;
+}
+
+.pr-lg-icon {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.dtl-header {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-family: var(--font);
+  color: rgba(40, 40, 40, 0.5);
+}
+.dtl-viewer {
+  padding-top: 0.2rem;
+  font-size: 1.2rem;
+  font-family: var(--font);
+  color: #000;
+  font-weight: bold;
+}
+/* Employee view section end  */
