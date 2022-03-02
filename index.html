@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/style.css" class="rel" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <title>Metamorphosis</title>
+  </head>
+  <body>
+    <!-- Top header Section -->
+    <div class="container">
+      <div class="navsection">
+        <div class="logo">
+          <figure class="logoimg">
+            <img src="./images/logo.PNG" alt="company-logo" class="logo-img" />
+          </figure>
+          <h2 class="company-name"><a href="#">METAMORPHOSIS</a></h2>
+        </div>
+        <div class="nav-item">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fas fa-envelope nav-lg"></i>brad@gmail.com</a
+              >
+            </li>
+
+            <li>
+              <a href="#"><i class="fas fa-phone-alt nav-lg"></i>9632587410</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icon-sline"></div>
+        <div class="icon-item">
+          <a href="#"><i class="fas fa-bell icon-bell"></i></a>
+          <a href="#"><i class="fas fa-user icon-bell"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header Section End -->
+    <!-- Add employee Button -->
+    <div class="container">
+      <button type="button" class="ae-button">Add Employee</button>
+    </div>
+    <!-- Add Employee Button end -->
+    <!-- Employee List Section -->
+    <div class="container fluid">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Avatar</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody id="mytable"></tbody>
+      </table>
+    </div>
+    <!-- Employee List section end  -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
